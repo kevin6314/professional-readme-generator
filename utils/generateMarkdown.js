@@ -1,9 +1,9 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(data.license) {
   switch (license) {
     case 'MIT':
-      return '[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      return `[![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     case 'Apache':
       return '[![Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)';
     case 'Creative Commons':
@@ -19,7 +19,7 @@ function renderLicenseLink(license) {
 
   switch (license){
     case 'MIT':
-      return '[MIT License](https://opensource.org/licenses/MIT)';
+      return `[MIT License](https://opensource.org/licenses/MIT)`;
     case 'Apache':
       return '[Apache License](https://opensource.org/licenses/Apache-2.0)';
     case 'Creative Commons':
@@ -39,6 +39,9 @@ function renderLicenseSection(license) {
   } else {
   const licenseBadge = renderLicenseBadge(license);
   const licenseLink = renderLicenseLink(license);
+  console.log(licenseBadge);
+  console.log(licenseLink);
+
   return `${licenseBadge} License Used: [${license}] ${licenseLink}`; 
   }
 }

@@ -89,24 +89,3 @@ function writeToFile(data) {
 }
 
 init();
-
-    // questions.forEach(question => {
-    //     inquirer.prompt([question]).then(data => {
-    //         //Object.assign(data, answer);
-            
-    //         console.log(data);
-    //             //renderReadme.generateMarkdown();
-    //     })
-    // });
-
-// }
-// }
-
-// //----Function call to initialize app----//
-
-
-//     for (const question of questions) {
-//         inquirer.prompt([question])
-//     .then((data) => {                  
-//             console.log(data);
-//     })
