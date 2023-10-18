@@ -30,7 +30,7 @@ test
 
 ## License
 
- License Used: [MIT,Apache,Creative Commons] 
+ License Used: [MIT] 
 
 ## Tests
 

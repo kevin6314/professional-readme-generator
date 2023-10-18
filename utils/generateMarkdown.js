@@ -49,6 +49,8 @@ function generateMarkdown(data) {
   
   const licenseSection = renderLicenseSection(data.license);
 
+  console.log(licenseSection);
+
     const readmeTop = `
 # ${data.title}
 
