@@ -76,7 +76,7 @@ async function init() {
     }
 
     const markdownContent = generateMarkdown(data);
-    console.log(markdownContent);
+    //console.log(markdownContent);
     writeToFile(markdownContent);
 }
 
